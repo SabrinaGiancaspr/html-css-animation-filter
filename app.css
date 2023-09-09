@@ -53,3 +53,12 @@
 .ex-7-img:hover{
   filter:brightness(2) sepia(3);
 }
+
+.ex-8-img{
+  transition: 2s;
+}
+
+.ex-8-img:hover{
+  border-radius: 10%;
+  filter: grayscale(3) sepia(.3);
+}
