@@ -84,15 +84,23 @@
 }
 
 .ex-11-icon:hover{
-animation: spinreverse 2s linear infinite;
+animation: spinreverse 2s linear;
+
 }
 
 @keyframes spinreverse{
-  0%{
+  0% {
     transform: rotate(0);
-  }
-  100%{
-    transform: rotate(1turn);
-  }
 }
+
+  70%{
+    transform: rotate(.97turn);
+  }
+
+100% {
+    transform: rotate(0);
+}
+}
+
+
 
