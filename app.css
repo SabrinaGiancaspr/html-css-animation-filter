@@ -133,3 +133,24 @@ animation: spinreverse 2s linear;
     right: 20px;
   }
 }
+
+/* es 13 non completo  */
+.ex-13-button:hover .ex-13-top-white{
+  animation: movetotal 2s linear;
+}
+
+@keyframes movetotal{
+  0%{
+    left: 20px;
+    top: -10px;
+  }
+  30%{
+    left: 40px;
+  }
+  40%{
+    left: 60px;
+  }
+  60%{
+    left: 100px;
+  }
+}
