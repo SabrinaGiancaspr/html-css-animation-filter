@@ -102,5 +102,34 @@ animation: spinreverse 2s linear;
 }
 }
 
+.ex-12-button:hover .ex-12-top-white{
+  animation: movetop 2s linear;
+}
 
+@keyframes movetop{
+  0%{
+    left: 10px;
+  }
+  50%{
+    left: 125px;
+  }
+  100%{
+    left: 10px;
+  }
+}
 
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: movebottom 2s linear;
+}
+
+@keyframes movebottom{
+  0%{
+    right: 20px;
+  }
+  50%{
+    right: 125px;
+  }
+  100%{
+    right: 20px;
+  }
+}
