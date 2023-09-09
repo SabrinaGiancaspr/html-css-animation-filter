@@ -82,3 +82,17 @@
     transform: rotate(1turn);
   }
 }
+
+.ex-11-icon:hover{
+animation: spinreverse 2s linear infinite;
+}
+
+@keyframes spinreverse{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+}
+
